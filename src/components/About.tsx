@@ -1,4 +1,3 @@
-import React from 'react';
 import { Target, Globe, Briefcase, Cpu } from 'lucide-react';
 
 const stats = [

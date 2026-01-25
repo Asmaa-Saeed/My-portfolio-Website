@@ -1,4 +1,3 @@
-import React from 'react';
 import { Bot, Workflow, Zap, Database, Code2, Link, MessageSquare, Sparkles } from 'lucide-react';
 
 const skills = [

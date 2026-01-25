@@ -1,4 +1,3 @@
-import React from 'react';
 import { Mail, MessageSquare, Linkedin, Send } from 'lucide-react';
 
 const Contact = () => {
