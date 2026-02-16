@@ -56,15 +56,15 @@ const projects: Project[] = [
         highlight: 'End-to-end sales automation',
         techStack: ['AI', 'n8n', 'CRM', 'Google Sheets'],
     },
-    // {
-    //     id: 6,
-    //     category: 'Content Automation',
-    //     country: 'UAE',
-    //     title: 'AI Content Creation Agent',
-    //     description: 'Built an AI agent that generates, organizes, and schedules content automatically based on predefined strategies.',
-    //     highlight: 'Scalable AI content system',
-    //     techStack: ['AI Agents', 'APIs', 'n8n'],
-    // },
+    {
+        id: 6,
+        category: 'FinTech & Security',
+        country: 'Saudi Arabia',
+        title: 'Anti-Fraud Banking Automation', // Automated Fraud Prevention System
+        description: 'Developed a secure fraud reporting automation for 30+ banks. Features a unified submission form with smart routing to specific bank contacts, duplicate IBAN detection to prevent redundancy, and automated archiving in Google Sheets.',
+        highlight: 'Smart routing & duplicate prevention for 30+ banks',
+        techStack: ['n8n', 'Google Sheets', 'Email Automation', 'Form Handling'],
+    },
 ];
 
 const ProjectCard = ({ project }: { project: Project }) => {
